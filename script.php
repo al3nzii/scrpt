@@ -10,12 +10,7 @@ if user == nil or key == nil then
   gg.alert("فعل الحماية أولاً ")
   os.exit()
 end
-user = io.open("/data/data/nkr.antiban.general/juice.so")
-key = io.open("/data/data/nkr.antiban.general/juice.so")
-if user == nil or key == nil then
-  gg.alert("فعل الحماية أولاً ")
-  os.exit()
-end
+
 
 
 SSC=gg.isPackageInstalled("nkr.antiban.general") if SSC==false then gg.alert("للمشتركين فقط !") os.exit() end
